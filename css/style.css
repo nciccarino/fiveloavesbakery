@@ -1,0 +1,267 @@
+nav ul a,
+nav .brand-logo {
+  font-family: sans-serif;
+  font-size: 22px;
+  line-height: 75px;
+  text-transform: uppercase;
+  letter-spacing: .35em;
+  font-weight: 600;
+  font-style: normal;
+  color: #171717;
+  display: inline-block; 
+}
+
+.brand-logo {
+  margin-top: 20px; 
+  margin-bottom: 10px; 
+}
+
+@media only screen and (max-width: 500px) {
+  nav ul a,
+  nav .brand-logo {
+    font-size: 12px;
+    line-height: 15px; 
+    letter-spacing: .5em; 
+    margin-top: 10px; 
+  }
+}
+
+.navOuter {
+  display: block;
+  width: 100%;
+  height: 75px;
+  border-bottom-style: solid;
+  border-bottom: solid;
+  border-bottom-color: grey;
+}
+
+.nav-wrapper {
+  background-color: white; 
+  font-family: sans-serif; 
+  display: block;
+  text-align: center; 
+  -webkit-box-pack: center; 
+  -webkit-box-align: center;
+  margin-bottom: 10px; 
+}
+
+.navList {
+  color: #171717;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.navList:hover {
+  background-color: #4aaaa5;
+  color: white;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#footerContainer {
+  background-color: #4aaaa5;
+  font-family: sans-serif;
+}
+
+#info {
+  background-color: white;
+}
+
+.icon-logo {
+  width: 75px;
+  height: 75px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 40px;
+  margin-top: 20px; 
+  float: left;
+  margin-right: 5px; 
+}
+
+.icon-logo:hover {
+  filter: invert(100%);
+}
+
+.sTitle {
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 75px;
+  text-transform: uppercase;
+  letter-spacing: .35em;
+  font-weight: 600;
+  font-style: normal;
+  color: #171717;
+  display: inline-block; 
+}
+
+.card-content {
+  transition: 0.3s;
+  text-align: left; 
+}
+
+.card-reveal {
+  text-align: left;
+}
+
+.card-content:hover {
+  background-color: #4aaaa5;
+  color: white; 
+}
+
+.footerTitles {
+  font-family: 'Passion One', cursive;
+}
+
+#dropHour {
+  height: 200px;
+  display: none;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 5px; 
+}
+
+.innerHour {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 75px;
+  text-transform: uppercase;
+  letter-spacing: .35em;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hourSmall {
+  text-align: center; 
+}
+
+.welcome {
+  text-align: center;
+  width: 100%;
+  /*height: 300px;*/
+}
+
+.founded {
+  font-size: 18px; 
+  line-height: 200%
+}
+
+.embers {
+  color: #B82601;
+  font-family: 'Cantarell', sans-serif;
+}
+
+.menuContainer {
+  padding-top: 200px;
+  margin-bottom: 200px; 
+}
+
+.menuInner {
+  text-align: center; 
+}
+
+.menuOption {
+  margin-top: 50px; 
+}
+
+a.copyrightNick:link {
+  color: #f0a43b;
+  text-decoration: none;
+  font-weight: normal; 
+}
+a.copyrightNick:active {
+  color: white;
+  text-decoration: none;
+  font-weight: normal; 
+}
+a.copyrightNick:visited {
+  color: #f0a43b;
+  text-decoration: none;
+  font-weight: normal; 
+}
+a.copyrightNick:hover {
+  color: #f0a43b;
+  text-decoration: none;
+  font-weight: normal; 
+}
+
+.aboutCol {
+  margin-bottom: 100px;
+}
+
+.aboutStuff {
+  margin-left: 100px; 
+  margin-top: 100px; 
+}
+
+@media only screen and (max-width: 500px) {
+  .aboutStuff {
+    margin-left: 10px;
+    text-align: center; 
+  }
+}
+
+#hoursDropNone:hover {
+  background-color: #ee6e73;
+}
+
+.googleMap {
+  margin-left: 200px; 
+  margin-top: 200px; 
+  width: 700px;
+  height: 550px;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .googleMap {
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100% !important;
+    height: 100% !important; 
+  }
+}
