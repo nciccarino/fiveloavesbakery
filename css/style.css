@@ -265,3 +265,8 @@ a.copyrightNick:hover {
     height: 100% !important; 
   }
 }
+
+.sliderTitle {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
